@@ -2,15 +2,21 @@
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+        <meta name='viewport' content='width=device-width' />
+        <meta name='generator' content={Astro.generator} />
+        <title>hp-laptop</title>
+    </head>
+    <body class='h-screen w-screen bg-neutral-950 text-white flex flex-col'>
+        <section class='mx-auto mt-10 max-w-screen-sm'>
+            <h1 class='text-3xl text-center'>Hello from Sindre's laptop 😄</h1>
+            <p class='pt-5'>
+                This page is accessed from my ooooold laptop. It is built with Astro, and runs via nginx in a docker
+                container.
+            </p>
+        </section>
+    </body>
 </html>
